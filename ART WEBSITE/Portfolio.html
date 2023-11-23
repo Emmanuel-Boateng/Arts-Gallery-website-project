@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+       <title>Welcome To The World Of Arts</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>    
+                    <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+      <h1>Our Portfolio</h1>
+
+
+
+    <!------------Portfolio--------->
+    <section class="Portfolio">
+        <h1>Portfolio We Do</h1>
+        <p>We have some nice variety of paintings.</p>
+    
+        <div class="row">
+            <div class="portfolio-col">
+                <h3>Painting</h3>
+                <p>Arts that speaks to the heart,vibrant
+                 strokes,capturing emotions.Simplicity 
+                 that sparks wonder....</p>
+            </div>
+            <div class="portfolio-col">
+                <h3>Digital Painting</h3>
+                <p>imaginative art in the digital realm.
+                A captivating blend of art and technology.
+                Breaking boudaries with digital art.</p>
+            </div>
+            <div class="portfolio-col">
+                <h3>Pencil Painting</h3>
+                <p>A monochoromatic masterpiece, where the
+                pencil breathes life into the drawn lines.
+                A timeless elegance rendered with the 
+              strokes of a pencil..</p>
+            </div>
+         </div>
+    
+    
+    </section>
+
+     <!-------------Gallary--------->
+
+     <section class="gallary">
+        <h1>Our Gallary</h1>
+        <p>Our Gallary Speak for Itself</p>
+        
+        <div class="row">
+            <div class="gallary-col">
+               <img src="images/Gallary 1.png">
+               <h3>Biggest Painting</h3>
+               <p>We have some of the paintings you can find accross the globe.</p>
+            </div>
+            <div class="gallary-col">
+               <img src="images/Gallary 2.png">
+               <h3>Huge Digital Art</h3>
+               <p>We have some of the paintings you can find accross the globe.</p>
+            </div>
+            <div class="gallary-col">
+               <img src="images/Gallary 3.png">
+               <h3>World Class Gallary</h3>
+               <p>We have some of the paintings you can find accross the globe.</p>
+            </div>
+        </div>
+   
+    </section>
+   
+
+
+
+
+
+<!--------footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We offer World standard paintings, consisting of digtal,pencil and colour 
+        paintings
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-snapchat"></i>
+    </div>
+</section>
+
+
+
+
+
+<!------JavaScript for Toggle Menu --------- --->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+
+</html>

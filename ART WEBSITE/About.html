@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+       <title>Welcome To The World Of Arts</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>    
+                    <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+      <h1>About Us</h1>
+
+
+
+    </section>
+
+
+
+</section>
+<!-----------about us content---------->
+
+<section class="about-us">
+
+    <div class="row">
+    <div class="about-col">
+       <h1>Welcome To The World's Biggest Atrs Website</h1>
+       <p> A vibrant online gallery that celebrates the beauty of digital,
+         pencil, and color paintings. Immerse yourself in a world where
+          creativity knows no bounds , as our diverse collection showcases
+         the unique expressions of  talented artists from around the globe.
+        Explore the seamless fusion of traditional and modern techniques, 
+        where pencil strokes come to life, colors dance on the canvas,
+         and digital art pushes the boundaries of imagination.  Whether 
+         you're a seasoned art enthusiast or a curious newcomer, 
+         our carefully curated selection offers something for every
+          taste and preference.
+        </p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+    <div class="about-col">
+       <img src="images/Arts 1.png">
+
+    </div>
+
+</section>
+
+
+
+
+<!--------footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We offer World standard paintings, consisting of digtal,pencil and colour 
+        paintings
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-snapchat"></i>
+    </div>
+</section>
+
+
+
+
+
+<!------JavaScript for Toggle Menu --------- --->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+
+</html>

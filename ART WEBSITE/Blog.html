@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+       <title>Welcome To The World Of Arts</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>    
+                    <li><a href="Portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+      <h1>Our Online Exhibition Gallary For 2023</h1>
+       </section>
+
+     <!------------blog page content------->
+
+     <section class="blog-content">
+
+        <div class="row">
+           <div class="blog-left">
+             <img src="images/Blog.png">
+             <h2>Our Online Exhibition Gallary For 2023</h2>
+             <p>"Arts Gallery" invites you to witness the unfolding chapters of 2023
+                 through the eyes of talented artists who have harnessed their creativity
+                  to make sense of the world's transformations. This exhibition is not just
+                   an artistic display; it's a living canvas that invites contemplation,
+                    conversation, and a shared exploration of the evolving human experience.</p>
+                    <br>
+                    <p>As you traverse the curated spaces, you'll encounter a diverse array
+                         of mediums and styles that mirror the dynamic and evolving nature 
+                         of our world. From thought-provoking sculptures that symbolize 
+                         adaptation to vibrant paintings that echo societal shifts, 
+                         each piece serves as a mirror reflecting the collective 
+                         consciousness of the year.</p>
+                         <br>
+                         <p>The artists featured in "Metamorphosis" draw inspiration from
+                             the challenges and triumphs of the past year, creating works that
+                              resonate with both introspection and hope. The exhibition is a 
+                              testament to the power of art to encapsulate and interpret the 
+                              human experience, providing viewers with a tangible and emotional
+                               connection to the events that shaped the year.</p>
+                         <br>
+                         <p>Step into the immersive world of "Virtual Visions," an online gallery
+                             exhibition that seamlessly merges the realms of art and technology. 
+                             This digital tapestry showcases a diverse collection of contemporary artworks,
+                              each a unique expression of creativity in the digital age.</p>
+                         <br>
+                         <p>As you navigate through the virtual gallery space, you'll encounter a kaleidoscope
+                             of mediums, from stunning digital paintings to interactive installations that 
+                             respond to your every move. The exhibition transcends traditional boundaries, 
+                             offering an innovative and accessible platform for artists to push the limits
+                              of their craft</p>
+
+
+                              <div class="comment-box">
+
+                                <h3>Leave a Comment</h3>
+                                <form class="comment-form">
+                                    <input type="text" placeholder="Please enter name">
+                                    <input type="text" placeholder="Please enter name">
+                                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                                </form>
+                              </div>
+        </div>
+           <div class="blog-right"></div>
+           
+        </div>
+
+     </section>
+    
+   
+
+     
+
+   
+
+
+
+<!--------footer------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We offer World standard paintings, consisting of digtal,pencil and colour 
+        paintings
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-snapchat"></i>
+    </div>
+</section>
+
+
+
+
+
+<!------JavaScript for Toggle Menu --------- --->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+
+</html>
